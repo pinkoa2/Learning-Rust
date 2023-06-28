@@ -29,8 +29,7 @@ pub fn distribute_candies(candies: i32, num_people: i32) -> Vec<i32> {
         let mut times_received_candies = 0;
         loop {
             let num_of_candies_to_be_given: i32 = times_received_candies * num_people + i + 1;
-            let num_of_candies_given: f32 = ((num_of_candies_to_be_given - 1) as f32 / 2.0)
-                * (1.0 + (num_of_candies_to_be_given - 1) as f32);
+            let num_of_candies_given: f32 = ((num_of_candies_to_be_given - 1) as f32 / 2.0) * (1.0 + (num_of_candies_to_be_given - 1) as f32);
 
             if num_of_candies_given as i32 + num_of_candies_to_be_given > candies {
                 break;
