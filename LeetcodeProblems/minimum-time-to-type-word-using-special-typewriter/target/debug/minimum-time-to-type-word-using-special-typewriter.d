@@ -1,0 +1,1 @@
+/home/alex/alex/Projects/Learning-Rust/minimum-time-to-type-word-using-special-typewriter/target/debug/minimum-time-to-type-word-using-special-typewriter: /home/alex/alex/Projects/Learning-Rust/minimum-time-to-type-word-using-special-typewriter/src/main.rs
